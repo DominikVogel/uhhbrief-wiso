@@ -23,10 +23,14 @@ Die Anleitung basiert auf der Anleitung, die ich unter https://www.tug.org/fonts
     5. MiKTeX erstellt eine PDF im aktuellen Verzeichnis
     
     
- # Neues Fakultätslogo nutzen
+## Problemlösung
  
- Um das aktuelle Logo der WiSo-Fakultät nutzen zu können, muss die Datei ``UHH_Plakat_DINlang_Wortmarken_WiSo.pdf`` im selben Verzeichnis wie die tex-Datei liegen. Zusätzlich muss die Präambel die Zeile ``\fakultaetslogo{UHH_Plakat_DINlang_Wortmarken_WiSo}{46.9truemm}{-0.5truemm}{3truemm}`` enthalten. 
+Sollte es zu Problemen kommen, kann es helfen, die MiKTeX Console zu öffnen und die unter "Task" aufgeführten Aufgaben anzustoßen.
+    
+# Neues Fakultätslogo nutzen
  
- ``Beispiel-Brief.tex`` enthält den LaTeX-Code für einen vollständigen Brief. Das Ergebnis ist in ``Beispiel-Brief.pdf`` dokumentiert.
+Um das aktuelle Logo der WiSo-Fakultät nutzen zu können, muss die Datei ``UHH_Plakat_DINlang_Wortmarken_WiSo.pdf`` im selben Verzeichnis wie die tex-Datei liegen. Zusätzlich muss die Präambel die Zeile ``\fakultaetslogo{UHH_Plakat_DINlang_Wortmarken_WiSo}{46.9truemm}{-0.5truemm}{3truemm}`` enthalten. 
+ 
+``Beispiel-Brief.tex`` enthält den LaTeX-Code für einen vollständigen Brief. Das Ergebnis ist in ``Beispiel-Brief.pdf`` dokumentiert.
  
  
