@@ -11,7 +11,7 @@ Ich habe daher die Briefvorlage angepasst und untenstehend eine Installationsanl
 
 Die Anleitung basiert auf der Anleitung, die ich unter https://www.tug.org/fonts/fontinstall.html gefunden habe.
 
-1. ``uhhbrief.zip`` und die dazugehörige LaTeX-Unterstützung für die Hausschrift ``thesansuhh.zip`` von https://www2.informatik.uni-hamburg.de/universitaet/uhhbrief.php herunterladen.
+1. ``uhhbrief.zip`` und die dazugehörige LaTeX-Unterstützung für die Hausschrift ``thesansuhh.zip`` von https://www.inf.uni-hamburg.de/inst/irz/software/uhhbrief.html herunterladen.
 2. Die beiden zip-Dateien nach ``%USERPROFILE%\Roaming\MiKTeX\2.9\`` entpacken (z. B. ``C:\Users\Vogel\AppData\Roaming\MiKTex\2.9\``).
 3. Eingabeaufforderung öffnen und ``initexmf --edit-config-file updmap`` eingeben. Es öffnet sich ein Texteditor. Dort folgendes eintragen, speichern und schließen: ``Map thesansuhh.map``
 4. In der Eingabeaufforderung ``initexmf --mkmaps`` eingeben und Fehlermeldungen ignorieren.
